@@ -1,14 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 	int testcase;
-	cin>>testcase;
-	while(testcase--)
+	cin >> testcase;
+	while (testcase--)
 	{
-	    int a,b;
-	    cin>>a>>b;
-	    cout<<(b-a)<<endl;
+		int a, b;
+		cin >> a >> b;
+		cout << (b - a) << endl;
 	}
 	return 0;
 }
